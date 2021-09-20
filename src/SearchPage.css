@@ -1,0 +1,126 @@
+.searchPage__header {
+  display: flex;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 100;
+  align-items: flex-start;
+  padding: 16px;
+  border-bottom: 1px solid lightgray;
+}
+.container {
+  max-width: 1020px;
+  margin: 0 auto;
+}
+.searchPage__headerTop {
+  display: flex;
+}
+
+.searchPage__logo {
+  object-fit: contain;
+  height: 30px;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.search__input {
+  display: flex;
+  align-items: center;
+  border: 1px solid lightgray;
+  height: 30px;
+  border-radius: 999px;
+  padding: 10px 30px;
+  width: 75vw;
+  margin: 0 auto;
+  margin-top: 40px;
+  max-width: 560px;
+}
+
+.search__input > input {
+  flex: 1;
+  padding: 10px 20px;
+  font-size: medium;
+  border: none;
+  outline: 0;
+}
+
+.search__inputIcon {
+  color: grey;
+}
+
+/*
+.searchPage__headerBody > .search > .search__input {
+  margin-top: 0;
+  width: unset;
+  height: unset;
+  max-width: unset;
+}
+*/
+.searchPage__options {
+  display: flex;
+  align-items: center;
+  color: grey;
+}
+
+.searchPage__options a,
+.searchPage__optionsRight a {
+  text-decoration: none;
+  color: grey;
+}
+
+.searchPage__optionsRight,
+.searchPage__optionsLeft {
+  display: flex;
+}
+
+.searchPage__optionsRight {
+  margin-left: 80px;
+}
+
+.searchPage__option {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.searchPage__option a {
+  margin-right: 5px;
+}
+
+.searchPage__result {
+  margin: 40px 0;
+}
+.searchPage__resultCount {
+  color: #70757a;
+  font-size: 14px;
+}
+.searchPage__results {
+  max-width: 650px;
+  margin-top: 20px;
+  margin-left: 240px;
+  margin-bottom: 100px;
+}
+
+.searchPage__resultImageLink {
+  display: flex;
+  align-items: center;
+}
+.searchPage__resultImage {
+  object-fit: contain;
+  height: 20px;
+  width: auto;
+  margin-right: 10px;
+}
+.searchPage__resultTitle {
+  text-decoration: none;
+}
+.searchPage__resultTitle:hover {
+  text-decoration: underline;
+}
+.searchPage__resultTitle > h2 {
+  font-weight: 500;
+}
+.searchPage__resultTitle > p {
+  margin-top: 10px;
+}
